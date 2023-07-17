@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Roboto:ital@1&family=Yatra+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'future';
+    src: url(../assets/Fonts/Future\ Shit.otf);
+}
+@font-face {
+    font-family: 'grafitti';
+    src: url(../assets/Fonts/adrip1.ttf);
+}
+@font-face {
+    font-family:'japan';
+    src: url(../assets/Fonts/Old\ Japanese.otf);
+}
+body {
+    background-image: url(../assets/images/fondopag.jpg);
+    height: 56.25rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 112.5rem;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+.subtitulo {
+    color: rgb(255, 255, 255);
+    font-size: 2.375rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'japan', sans-serif;
+    src: url(../assets/Fonts/Old\ Japanese.otf);
+}
+.titulo h1{
+    color: rgb(218, 0, 247);
+    font-size: 6.875rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'grafitti';
+    src: url(../assets/Fonts/adrip1.ttf);
+}
+.titulo h3 {
+    color: rgb(200, 22, 185);
+    font-size: 3.25rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'grafitti';
+    src: url(../assets/Fonts/adrip1.ttf);
+}
+.viaje {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(58, 0, 99, 0.743);
+    font-size: 2.375rem;
+    font-weight: bold;
+    text-align:  center;
+    text-decoration: none;
+    margin: 0rem 1.375rem;
+    font-family: 'future';
+    src: url(../assets/Fonts/Future\ Shit.otf);
+}
+.ourproduct {
+    color: rgb(161, 0, 0);
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Yatra', sans-serif;
+}
+.ourproduct-2 {
+    color: rgb(161, 0, 0);
+    font-size: 1.375rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.hoodie-inicio {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.jacket-inicio {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.jogger-inicio {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.futercontact {
+    background-color: blanchedalmond;
+    color: rgb(0, 0, 0);
+    font-size: 2.625rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'future';
+    src: url(../assets/Fonts/Future\ Shit.otf);
+}
+
+.twt {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+}
+
+.mail {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+}
+
+.tel {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+}
+
+.ig {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+}
+
+.footer-fondo {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 2rem;
+}
+
+.footer-posicion {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 100vh;
+}
+
+.footer-content {
+    padding: 2rem;
+}
+
+@media (max-width: 480px) {
+    .footer-posicion {
+        align-items: center;
+        min-height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-posicion {
+        align-items: center;
+        min-height: auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1084px) {
+    .footer-posicion {
+        align-items: center;
+        min-height: auto;
+    }
+}
+
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.Aboutus {
+    background-color: rgba(84, 84, 84, 0.831);
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+    padding: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+}
+.Aboutus {
+    background-color: rgba(84, 84, 84, 0.831);
+    color: black;
+    width: 50%;
+    padding: 1.25rem;
+}
+
+.Aboutus h2 {
+    color: rgb(218, 0, 247);
+    font-size: 6.875rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'grafitti';
+}
+
+.Aboutus h3 {
+    color: rgb(171, 76, 144);
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Aboutus p {
+    color: rgb(255, 255, 255);
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1.25rem;
+}
+@media (min-width: 769px) and (max-width: 1084px) {
+    .Aboutus {
+    width: 50%;
+    padding: .625rem;
+    }
+    .Aboutus h2 {
+    font-size: 4rem;
+    }
+    .Aboutus h3 {
+    font-size: 1.75rem;
+    }
+    .Aboutus p {
+    font-size: 14px;
+    padding: .625rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .Aboutus {
+        width: 100%;
+        padding: .3125rem;
+        }
+    
+        .Aboutus h2 {
+        font-size: 2.5rem;
+        }
+    
+        .Aboutus h3 {
+        font-size: 1.25rem;
+        }
+    
+        .Aboutus p {
+        font-size: 12px;
+        padding: .3125rem;
+        }
+    }
+
+@media (max-width: 480px) {
+    .Aboutus {
+    width: 100%;
+    padding: .3125rem;
+    }
+
+    .Aboutus h2 {
+    font-size: 2.5rem;
+    }
+
+    .Aboutus h3 {
+    font-size: 1.25rem;
+    }
+
+    .Aboutus p {
+    font-size: 12px;
+    padding: .3125rem;
+    }
+}
+.mainclase {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.section-main {
+    background-color: rgba(84, 84, 84, 0.831);
+    color: black;
+    width: 50%;
+    padding: 1.25rem;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+.section-main h2 {
+    color: rgb(171, 76, 144);
+    font-size: 4.75rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'grafitti';
+}
+.section-main h3 {
+    color: rgb(255, 255, 255);
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.25rem;
+    line-height: 1.5;
+    padding: 1.25rem;
+}
+.section-main p {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1.25rem;
+}
+@media (max-width: 480px) {
+    .section-main {
+    width: 100%;
+    padding: 5px;
+    }
+    .section-main h2 {
+        font-size: 2.5rem;
+        }
+    
+        .section-main h3 {
+        font-size: 1.25rem;
+        }
+    
+        .section-main p {
+        font-size: 12px;
+        padding: .3125rem;
+        }
+}
+@media (max-width: 768px) {
+    .section-main {
+        width: 100%;
+        padding: 5px;
+        }
+        .section-main h2 {
+            font-size: 2.5rem;
+            }
+        
+            .section-main h3 {
+            font-size: 1.25rem;
+            }
+        
+            .section-main p {
+            font-size: 12px;
+            padding: .3125rem;
+            }
+}
+    @media (min-width: 769px) and (max-width: 1084px) {
+        .section-main {
+        width: 50%;
+        padding: .3125rem;
+        }
+        .section-main h2 {
+            font-size: 4rem;
+            }
+            .section-main h3 {
+            font-size: .9375rem;
+            }
+            .section-main p {
+            font-size: 14px;
+            padding: .625rem;
+            }
+}
+.formulario legend {
+    color: rgb(171, 76, 144);
+    font-size: 4.75rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'grafitti';
+}
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.column {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(min-content, max-content));
+    gap: 0.5rem;
+}
+.how-to-buy div h2 {
+color: rgb(0, 160, 160);
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+text-decoration: none;
+font-family: 'grafitti';
+font-size: 5.125rem;
+} 
+.how-to-buy div p {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.8125rem;
+    } 
+.lista-pasos li {
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-overflow: ellipsis;    
+    } 
+.mainclase h3{
+        color: rgb(0, 0, 0);
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+.section-main-how {
+    background-color: rgba(199, 199, 162, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+.pagos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+.Titulo-Return h2 {
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 4.25rem;
+    font-family: 'grafitti';
+}
+.article {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.change h2{
+    font-size: 3.5rem;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'grafitti';
+}
+.devo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
