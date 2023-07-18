@@ -1,30 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Roboto:ital@1&family=Yatra+One&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: 'future';
-    src: url(../assets/Fonts/Future\ Shit.otf);
+    src: url('../assets/Fonts/Future Shit.otf');
 }
+
 @font-face {
     font-family: 'grafitti';
-    src: url(../assets/Fonts/adrip1.ttf);
+    src: url('../assets/Fonts/adrip1.ttf');
 }
+
 @font-face {
-    font-family:'japan';
-    src: url(../assets/Fonts/Old\ Japanese.otf);
+    font-family: 'japan';
+    src: url('../assets/Fonts/Old Japanese.otf');
 }
+
 body {
-    background-image: url(../assets/images/fondopag.jpg);
-    height: 56.25rem;
+    background-image: url('../assets/images/fondopag.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    height: 112.5rem;
     background-attachment: fixed;
     background-size: cover;
-    }
+    height: 112.5rem;
+}
 .subtitulo {
     color: rgb(255, 255, 255);
     font-size: 2.375rem;
@@ -32,7 +36,6 @@ body {
     text-align: center;
     text-decoration: none;
     font-family: 'japan', sans-serif;
-    src: url(../assets/Fonts/Old\ Japanese.otf);
 }
 .titulo h1{
     color: rgb(218, 0, 247);
@@ -41,7 +44,6 @@ body {
     text-align: center;
     text-decoration: none;
     font-family: 'grafitti';
-    src: url(../assets/Fonts/adrip1.ttf);
 }
 .titulo h3 {
     color: rgb(200, 22, 185);
@@ -50,7 +52,6 @@ body {
     text-align: center;
     text-decoration: none;
     font-family: 'grafitti';
-    src: url(../assets/Fonts/adrip1.ttf);
 }
 .viaje {
     display: flex;
@@ -62,7 +63,6 @@ body {
     text-decoration: none;
     margin: 0rem 1.375rem;
     font-family: 'future';
-    src: url(../assets/Fonts/Future\ Shit.otf);
 }
 .ourproduct {
     color: rgb(161, 0, 0);
@@ -112,7 +112,6 @@ body {
     text-align: center;
     text-decoration: none;
     font-family: 'future';
-    src: url(../assets/Fonts/Future\ Shit.otf);
 }
 
 .twt {
