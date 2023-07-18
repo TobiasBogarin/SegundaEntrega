@@ -8,17 +8,17 @@
 
 @font-face {
     font-family: 'future';
-    src: url('../assets/Fonts/Future Shit.otf');
+    src: url('../assets/fonts/Future Shit.otf');
 }
 
 @font-face {
     font-family: 'grafitti';
-    src: url('../assets/Fonts/adrip1.ttf');
+    src: url('../assets/fonts/adrip1.ttf');
 }
 
 @font-face {
     font-family: 'japan';
-    src: url('../assets/Fonts/Old Japanese.otf');
+    src: url('../assets/fonts/Old Japanese.otf');
 }
 
 body {
